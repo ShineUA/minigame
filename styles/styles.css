@@ -1,0 +1,40 @@
+@font-face {
+    font-family: MacPawFixel;
+    src: url(FixelVariable.ttf);
+}
+
+body {
+    background-color: darkslategray;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: MacPawFixel;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: MacPawFixel;
+}
+
+button {
+    background-color: gainsboro;
+    border-radius: 15px;
+    height: 50px;
+    width: 240px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: MacPawFixel;
+    font-size: 40px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
