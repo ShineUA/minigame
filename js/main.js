@@ -13,7 +13,7 @@ function clk() {
         document.getElementById("clcktxt").innerHTML = "Clicks: " + num;
         if(num >= 100 && sound == 0) {
             document.getElementById("txt").style.color = "green";
-            document.getElementById("txt").innerHTML = "You are GOD!";
+            document.getElementById("txt").innerHTML = "GORGEOUS!!!";
             sound++;
             new_level.play();
         } else if(num >= 200 && sound == 1) {
@@ -23,7 +23,7 @@ function clk() {
             new_level.play();
         } else if(num >= 500 && sound == 2) {
             document.getElementById("txt").style.color = "red";
-            document.getElementById("txt").innerHTML = "GORGEOUS!!!";
+            document.getElementById("txt").innerHTML = "You are GOD!";
             sound++;
             new_level.play();
         } else if(num >= 1000 && sound == 3) {
